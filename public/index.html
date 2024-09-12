@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chat Ao Vivo</title>
+	<link rel="stylesheet" href="style.css">
+	<script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+</head>
+<body>
+	
+	<div class="container">
+        <div class="title">Bem-vindo ao chat ao vivo em tempo real!</div>
+
+        <div class="videos">
+            <video id="localVideo" autoplay muted></video>
+            <video id="remoteVideo" autoplay></video>
+        </div>
+
+        <div class="controls">
+            <button id="muteButton">Mutar Microfone</button>
+            <button id="cameraButton">Desligar Câmera</button>
+            <button id="disconnectButton">Desconectar</button>
+        </div>
+    </div>
+
+	<script src="./script.js"></script>
+</body>
+</html>
